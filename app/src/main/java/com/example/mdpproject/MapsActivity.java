@@ -115,14 +115,3 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentPos, 13));
     }
 }
-
-AndroidManifest.xml
-google_maps_api.xml
-
-        echo "# MDPproject" >> README.md
-        git init
-        git add README.md
-        git commit -m "first commit"
-        git branch -M main
-        git remote add origin https://github.com/cgallardog/MDPproject.git
-        git push -u origin main
